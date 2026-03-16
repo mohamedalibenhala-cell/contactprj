@@ -1,5 +1,3 @@
-pytest
-pytest-cov
 Flask
 flask-mysqldb
 flask-cors
