@@ -19,7 +19,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r ./backend/requirements.txt
 
     - name: lancer les tests
       run: python -m pytest tests/ -v --cov=app
