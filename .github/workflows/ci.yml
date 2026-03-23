@@ -29,10 +29,10 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker compose build ${{ secrets.DOCKER_USERNAME }}/tp-images .
+        docker compose build .
 
     
 
     - name: Push image
       run: |
-         docker compose push ${{ secrets.DOCKER_USERNAME }}/tp-images
+         docker compose push
